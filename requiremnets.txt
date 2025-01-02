@@ -1,0 +1,8 @@
+pandas
+streamlit
+pyspark
+matplotlib
+plotly
+pyspark
+yfinance
+

@@ -1,6 +1,6 @@
 import streamlit as st
 from pyspark.sql import SparkSession
-from your_script_name import calculate_return_rate, best_return_rate, calculate_correlation_between_stocks
+from danaelbaba import calculate_return_rate, best_return_rate, calculate_correlation_between_stocks
 
 # Initialize Spark
 spark = SparkSession.builder.appName("Stock Analysis").getOrCreate()
